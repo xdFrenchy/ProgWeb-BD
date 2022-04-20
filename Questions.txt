@@ -1,0 +1,13 @@
+1) /inscription?nom=toto&prenom=titi,
+2) /inscription?nom=toto&prenom=titi OU  /inscription/toto/titi
+
+3) CREATE TABLE films (id INT PRIMARY KEY NOT NULL, titre VARCHAR(50), realisateur VARCHAR(50),
+   date DATE, note INTEGER NOT NULL CHECK(note BETWEEN 1 AND 5), description VARCHAR(500));
+
+4) SELECT * FROM films;
+
+5) SELECT titre FROM films WHERE realisateur = 'Lucas';
+
+6)INSERT INTO films(id,titre,realisateur,date,note,description) VALUES (); 
+
+7) UPDATE films SET note = 1 WHERE id = 1;
